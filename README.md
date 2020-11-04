@@ -1,6 +1,7 @@
 # arraysLab
+These are my solutions to the 15 questions in the arrays lab 11/04/2020
 
-my-dev-environment
+arraysLab
 
 OS
 darwin19.0
@@ -230,3 +231,4 @@ node_modules
 # Byte-compiled #
 *.py[cd]
 __pycache__/
+
