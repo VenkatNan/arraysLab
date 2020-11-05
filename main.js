@@ -183,6 +183,15 @@ Exercise 15:
 
 // Complete Exercise 15 below...
 let total = 0;
-numArrays.flat().forEach ((num) => {total += num;})
+numArrays.flat().forEach((num) => {total += num;})
 
 console.log('Exercise 15 Result:\n', total);
+
+let mix = 0;
+numArrays.forEach((numArr)=>{
+  numArr.forEach((num)=>{
+    mix += num;
+  });
+});
+
+console.log('Exercise 15.b Result:\n', mix);
